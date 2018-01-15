@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Insult detection using ML | Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../static/js/app.js"></script>
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI';
+    }
+
+    .button {
+        background-color: #1081ca;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    #message {
+
+        font-size: 1.4em;
+    }
+
+    textarea {
+        font-size: 1.4em;
+    }
+</style>
+
+<body id="page-top">
+
+    <div class="container-fluid">
+        <h1>Test your Text</h1>
+        <p></p>
+        <p></p>
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                    <div class="form-group">
+                            <label>Enter text</label>
+                            <br/>
+                            <textarea style="height:200px;width:600px" type="textarea" maxlength="139" name="text" id="input" required></textarea>
+                            <br/>
+                            <input class="button" type="button" value="Test" class="submit" id="submit_text" />
+                        </div>
+                        <div id="message"></div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                    <h1>Test examples</h1>
+                    <p></p>
+                    <p></p>
+                    <ul>
+                        <li>"you are a mental midget you can't be a traitor if you aren't a citizen."</li>
+                        <li>"lol wow. so in your mind everyone whos racist is a murderer.. So you're a murderer too? Idiot..."</li>
+                        <li>"In your world of delusion of course."</li>
+                        <li> "Are you mental?"</li>
+                        <li>"He's an idiot !"</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
