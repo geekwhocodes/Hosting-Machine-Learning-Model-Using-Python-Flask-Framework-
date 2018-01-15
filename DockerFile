@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER Ganesh Raskar "https://geewhocodes.me"
+MAINTAINER Ganesh Raskar "https://geekwhocodes.me"
 
 RUN apt-get update -qq \
  && apt-get install --no-install-recommends -y \
